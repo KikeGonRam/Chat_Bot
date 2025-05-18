@@ -5,7 +5,7 @@ from .responses import get_response
 
 def run_chatbot():
     """Ejecuta el bucle de conversación del chatbot."""
-    print("¡Bienvenido a bordo! Soy el Capitán Grok Sparrow. Escribe algo o di 'salir' para zarpar.")
+    print("¡Bienvenido a bordo! Soy el Capitán Grok Sparrow. Escribe algo, haz una pregunta con '?' o di 'salir' para zarpar.")
     
     while True:
         # Lee el mensaje del usuario
